@@ -23,7 +23,7 @@ function App() {
           className="flex flex-col items-center justify-center h-full gap-7"
         >
           <div id="hero-text" className="flex flex-col items-center gap-7">
-            <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-white text-shadow-white text-shadow-lg">
+            <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-white text-shadow-white [text-shadow:_0px_2px_20px_#ffffff]">
               Bem-vindo ao Celestia
             </h1>
             <p className="text-white text-xs md:text-base lg:text-lg">
@@ -32,14 +32,14 @@ function App() {
           </div>
           <div id="hero-buttons" className="flex flex-col md:flex-row gap-5">
             <a
-              className="bg-green-700 text-white font-bold p-4 cursor-pointer rounded-md flex gap-2"
+              className="bg-green-700 text-white font-bold p-4 cursor-pointer rounded-md relative flex gap-2 duration-700 hover:[transform:translateY(-5px)] hover:opacity-40"
               href="https://realms.gg/Ca6PcCMM96EYTpc"
               target="_blank"
             >
               <Gamepad2 color="#ffffff" strokeWidth={2.5} /> Jogue agora!
             </a>
             <a
-              className="bg-blue-500 text-white font-bold p-4 cursor-pointer rounded-md flex gap-2"
+              className="bg-blue-500 text-white font-bold p-4 cursor-pointer rounded-md flex gap-2 duration-700 hover:[transform:translateY(-5px)] hover:opacity-40"
               href="http://discord.gg/yvP8JtCVVe"
             >
               <MessageCircle color="#ffffff" strokeWidth={2.5} /> Fale conosco!
@@ -47,7 +47,7 @@ function App() {
           </div>
           <div id="codigo realms">
             <button
-              className="bg-gray-600 p-2 rounded-md flex gap-2 text-white cursor-pointer"
+              className="bg-gray-600 p-2 rounded-md flex gap-2 text-white cursor-pointer duration-700 hover:[transform:translateY(-5px)] hover:opacity-40"
               onClick={copyCode}
             >
               <ClipboardCopy color="#ffffff" strokeWidth={2.5} /> {code}

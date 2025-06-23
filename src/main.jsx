@@ -6,7 +6,7 @@ import Sobre from "./pages/Sobre.jsx";
 import Contato from "./pages/Contato.jsx";
 import Loja from "./pages/Loja.jsx";
 import Regras from "./pages/Regras.jsx";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router";
 
 const router = createBrowserRouter([
   {
