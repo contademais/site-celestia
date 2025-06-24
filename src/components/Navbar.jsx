@@ -38,7 +38,7 @@ function Navbar() {
                 <ul className="flex flex-row gap-2 lg:gap-4">
                     {botoes.map((botao) => (
                         <li key={botao.id}>
-                            <a href={botao.link} className="hover:opacity-50 duration-700 cursor-pointer text-white text-xs lg:text-base uppercase tracking-[1px] font-bold">{botao.label}</a>
+                            <a href={botao.link} className="relative hover:[transform:translateY(-5px)] hover:opacity-50 duration-700 cursor-pointer text-white text-xs lg:text-base uppercase tracking-[1px] font-bold">{botao.label}</a>
                         </li>
                     ))}
                 </ul>

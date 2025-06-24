@@ -16,9 +16,9 @@ function Sobre() {
         </div>
         <div className="mx-50 flex flex-col lg:flex-row gap-5 lg:gap-30 text-white justify-center items-center">
           <img
-            src="./src/assets/Print1.png"
+            src="/assets/Print1.png"
             alt="Screenshot1"
-            className="width-auto max-w-[400px] h-[100px] md:h-[100px] lg:h-[230px] rounded-4xl border-1 border-white shadow-2xl [box-shadow:_0px_0px_30px_#ffffff]"
+            className="width-auto hover:scale-[1.1] duration-700 max-w-[400px] h-[100px] md:h-[100px] lg:h-[230px] rounded-4xl border-1 border-white shadow-2xl [box-shadow:_0px_0px_30px_#ffffff]"
           />
           <div className="flex flex-col gap-5">
             <h1 className="text-center text-lg md:text-2xl lg:text-2xl font-bold text-white text-shadow-white [text-shadow:_0px_2px_20px_#ffffff]">
@@ -43,9 +43,9 @@ function Sobre() {
             </p>
           </div>
           <img
-            src="./src/assets/Print2.png"
+            src="/assets/Print2.png"
             alt="Screenshot2"
-            className="width-auto max-w-[400px] h-[100px] md:h-[100px] lg:h-[230px] rounded-4xl border-1 border-white shadow-2xl [box-shadow:_0px_0px_30px_#ffffff]"
+            className="width-auto hover:scale-[1.1] duration-700 max-w-[400px] h-[100px] md:h-[100px] lg:h-[230px] rounded-4xl border-1 border-white shadow-2xl [box-shadow:_0px_0px_30px_#ffffff]"
           />
         </div>
       </div>

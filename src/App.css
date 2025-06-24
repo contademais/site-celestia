@@ -12,17 +12,4 @@
       transform: scale(1);
     }
   }
-
-  --animate-appear-bottom: appearFromBottom 3s ease-in-out;
-
-  @keyframes appearFromBottom {
-    0% {
-      transform: translatey(20px);
-      opacity: 0;
-    }
-    100% {
-      transform: translatey(0px);
-      opacity: 1;
-    }
-  }
 }
