@@ -23,9 +23,14 @@ function App() {
           className="flex flex-col items-center justify-center h-full gap-7"
         >
           <div id="hero-text" className="flex flex-col items-center gap-7">
-            <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-white text-shadow-white [text-shadow:_0px_2px_20px_#ffffff]">
-              Bem-vindo ao Celestia
-            </h1>
+            <div className="flex flex-col justify-center">
+              <h1 className="text-[60px] text-center md:text-[80px] lg:text-[100px] font-bold text-white text-shadow-white text-shadow-lg">
+                Celestia
+              </h1>
+              <h1 className="text-base text-center md:text-xl lg:text-2xl font-bold text-white [text-shadow:_0px_2px_20px_#ffffff]">
+                Seja bem-vindo
+              </h1>
+            </div>
             <p className="text-white text-xs md:text-base lg:text-lg">
               Sobreviva e crie seu legado em um mundo mágico!
             </p>
@@ -40,7 +45,7 @@ function App() {
             </a>
             <a
               className="bg-blue-500 text-white font-bold p-4 cursor-pointer rounded-md flex gap-2 duration-700 hover:[transform:translateY(-5px)] hover:opacity-40"
-              href="http://discord.gg/yvP8JtCVVe"
+              href="/contato"
             >
               <MessageCircle color="#ffffff" strokeWidth={2.5} /> Fale conosco!
             </a>
@@ -55,7 +60,7 @@ function App() {
           </div>
           <div id="nota apenas bedrock">
             <p className="text-white text-xs italic">
-              Nota: este servidor funciona apenas com o Bedrock Edition.
+              Nota: este servidor funciona apenas com o Minecraft Bedrock Edition.
             </p>
           </div>
         </div>

@@ -1,14 +1,28 @@
 @import "tailwindcss";
 
 @theme {
-    --animate-pulsar: pulsar 5s ease-in-out infinite;
+  --animate-pulsar: pulsar 5s ease-in-out infinite;
 
-    @keyframes pulsar {
-        0%, 100% {
-            transform: scale(1.1);
-        }
-        50% {
-            transform: scale(1);
-        }
+  @keyframes pulsar {
+    0%,
+    100% {
+      transform: scale(1.1);
     }
+    50% {
+      transform: scale(1);
+    }
+  }
+
+  --animate-appear-bottom: appearFromBottom 3s ease-in-out;
+
+  @keyframes appearFromBottom {
+    0% {
+      transform: translatey(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translatey(0px);
+      opacity: 1;
+    }
+  }
 }
